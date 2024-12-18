@@ -55,17 +55,21 @@ main {
 h1 {
     font-size: var(--step-5);
     line-height: 1;
-    color: var(--color-fg);
+    color: #fa6969;
     font-family: var(--font-header);
     letter-spacing: .1em;
 }
 
 p {
-    font-size: var(--step-4);
-    color: var(--color-fg);
+    font-size: var(--step-2);
+    color: #fa6969;
     font-family: var(--font-header);
 }
-
+h2 {
+    font-size: var(--step-4);
+    color: #fa6969;
+    font-family: var(--font-header);
+}
 canvas {
     position: absolute;
     top: 0;
